@@ -5,8 +5,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <h1 class="text-3xl font-bold underline w-0">
+    Hello world!
+  </h1>
 </template>
 
 <style>
