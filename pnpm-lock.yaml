@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': ^1.0.0-next.30
+  '@sveltejs/vite-plugin-svelte': ^1.0.0-next.32
   '@tsconfig/svelte': ^2.0.1
-  svelte: ^3.44.0
-  svelte-check: ^2.2.7
-  svelte-preprocess: ^4.9.8
+  svelte: ^3.44.3
+  svelte-check: ^2.2.11
+  svelte-preprocess: ^4.10.1
   tslib: ^2.3.1
-  typescript: ^4.4.4
-  vite: ^2.7.2
+  typescript: ^4.5.4
+  vite: ^2.7.6
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.32_svelte@3.44.3+vite@2.7.6
@@ -82,8 +82,8 @@ packages:
     resolution: {integrity: sha512-6xwbrW4JJiJLgF+zNypN5wr2ykM9/jHcL7rQ8fZe2vuftggjzZeRSM4OwRc6Xk8qWjwJ99qVHo/JgOGmomWRog==}
     dev: true
 
-  /@types/pug/2.0.5:
-    resolution: {integrity: sha512-LOnASQoeNZMkzexRuyqcBBDZ6rS+rQxUMkmj5A0PkhhiSZivLIuz6Hxyr1mkGoEZEkk66faROmpMi4fFkrKsBA==}
+  /@types/pug/2.0.6:
+    resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
     dev: true
 
   /@types/sass/1.43.1:
@@ -630,8 +630,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.61.1:
-    resolution: {integrity: sha512-BbTXlEvB8d+XFbK/7E5doIcRtxWPRiqr0eb5vQ0+2paMM04Ye4PZY5nHOQef2ix24l/L0SpLd5hwcH15QHPdvA==}
+  /rollup/2.62.0:
+    resolution: {integrity: sha512-cJEQq2gwB0GWMD3rYImefQTSjrPYaC6s4J9pYqnstVLJ1CHa/aZNVkD4Epuvg4iLeMA4KRiq7UM7awKK6j7jcw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -776,7 +776,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@types/pug': 2.0.5
+      '@types/pug': 2.0.6
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.25.7
@@ -827,7 +827,7 @@ packages:
       esbuild: 0.13.15
       postcss: 8.4.5
       resolve: 1.20.0
-      rollup: 2.61.1
+      rollup: 2.62.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
