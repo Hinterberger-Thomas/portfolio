@@ -1,0 +1,50 @@
+---
+import languages from "../assets/languages.svg";
+import github from "../assets/github.svg";
+import hamburger from "../assets/hamburger.svg";
+---
+
+<nav
+    class="pt-3 right-[50%] mr-[-336px] max-w-2xl flex w-[90%] justify-between top-0 fixed backdrop-blur-sm"
+>
+    <p class="white font-bold">Thoams Hinterberger</p>
+    <ul class="flex list-none justify-between max-hamburger:hidden w-[300px]">
+        <li class="text-white hover:underline underline-offset-8">
+            <a class="text-white" href="/">Home</a>
+        </li>
+        <li class="hover:underline underline-offset-8">
+            <a class="text-white" href="/posts">Posts</a>
+        </li>
+        <li class="text-white hover:underline underline-offset-8">
+            <a class="text-white" href="/projects">Projects</a>
+        </li>
+        <li class="text-white hover:underline underline-offset-8">
+            <a target="_blank" href="https://github.com/Hinterberger-Thomas/portfolio" class="text-white flex"
+                ><img class="w-5 h-5 mr-1" src={github} alt="github" />Source</a
+            >
+        </li>
+    </ul>
+
+    <div class="flex items-center justify-center">
+        <button class="">
+            <img alt="languages" src={languages} />
+        </button>
+        <div class="dropdown dropdown-end">
+            <label
+                tabindex="0"
+                class="swap swap-rotate hamburger:hidden ml-4 z-20"
+            >
+                <img src={hamburger} alt="hamburgermenu" />
+            </label>
+            <ul
+                tabindex="1"
+                class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 z-20"
+            >
+                <li class="z-20"><a>Item 1</a></li>
+                <li class="z-20"><a>Item 2</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style></style>

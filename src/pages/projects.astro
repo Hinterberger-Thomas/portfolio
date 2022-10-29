@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/BaseLayout.astro"
+import exampleApp from "../assets/app/ex-app.webp"
+---
+
+
+
+<Layout title="projects">
+
+    <div class="mockup-code">
+        <pre data-prefix="$"><code>Below you can see my previous work</code></pre>
+    </div>
+
+    <h3 class="text-xl font-bold mt-10 underline underline-offset-8"></h3>
+
+    <div class="mockup-phone">
+        <div class="camera"></div> 
+        <div class="display">
+          <div class="artboard artboard-demo phone-1">
+            <img src={exampleApp} alt="example app">
+          </div>
+        </div>
+      </div>
+
+</Layout>

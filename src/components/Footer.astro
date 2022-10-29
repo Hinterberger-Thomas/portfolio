@@ -1,0 +1,26 @@
+---
+import github from "../assets/github.svg"
+import linkedin from "../assets/linkedin.svg"
+import twitter from "../assets/twitter.svg"
+const a = new Date().getFullYear();
+
+---
+
+<footer class="footer footer-center p-10 text-base-content rounded">
+    <div>
+        <div class="grid grid-flow-col gap-4">
+            <a target="_blank" href="https://twitter.com/ThomasHinterberger">
+                <img src={twitter} alt="twitter"/>
+            </a>
+            <a target="_blank" href="https://github.com/Hinterberger-Thomas">
+                <img src={github} alt="github"/>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/thomas-hinterberger-bb0747215/">
+                <img src={linkedin} alt="linkdin">
+            </a>
+        </div>
+    </div>
+    <div>
+        <p>Copyright © {a} - All right reserved by Thoams Hinterberger</p>
+    </div>
+</footer>
