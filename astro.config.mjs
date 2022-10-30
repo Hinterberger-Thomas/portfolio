@@ -7,6 +7,11 @@ import tailwind from "@astrojs/tailwind";
 import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
+import vercel from "@astrojs/vercel/edge";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), prefetch()]
+  integrations: [tailwind(), prefetch()],
+  adapter: vercel(),
+  output: "server"
 });
