@@ -10,16 +10,19 @@ import hamburger from "../assets/hamburger.svg";
     <p class="white font-bold">Thoams Hinterberger</p>
     <ul class="flex list-none justify-between max-hamburger:hidden w-[300px]">
         <li class="text-white hover:underline underline-offset-8">
-            <a class="text-white" href="/">Home</a>
+            <a class="text-white" rel="prefetch" href="/">Home</a>
         </li>
         <li class="hover:underline underline-offset-8">
-            <a class="text-white" href="/posts">Posts</a>
+            <a class="text-white" rel="prefetch" href="/posts">Posts</a>
         </li>
         <li class="text-white hover:underline underline-offset-8">
-            <a class="text-white" href="/projects">Projects</a>
+            <a class="text-white" rel="prefetch" href="/projects">Projects</a>
         </li>
         <li class="text-white hover:underline underline-offset-8">
-            <a target="_blank" href="https://github.com/Hinterberger-Thomas/portfolio" class="text-white flex"
+            <a
+                target="_blank"
+                href="https://github.com/Hinterberger-Thomas/portfolio"
+                class="text-white flex"
                 ><img class="w-5 h-5 mr-1" src={github} alt="github" />Source</a
             >
         </li>
